@@ -1,0 +1,2 @@
+1 inf inf inf inf
+0 inf inf inf inf
