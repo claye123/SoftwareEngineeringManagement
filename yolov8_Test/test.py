@@ -11,7 +11,7 @@ img_files=os.listdir(r'D:\yolo\测试集图片')
 
 lens=len(img_files)
 
-model = YOLO(r'D:\yolo\yolov8_Test_1\runs\detect\train20\weights\best.pt')
+model = YOLO(r'D:\yolo\yolov8_Test\runs\detect\train20\weights\best.pt')
 
 results=model.predict(source=r'D:\yolo\测试集图片',conf=0.2,imgsz=640,save=True)
 #print(results)

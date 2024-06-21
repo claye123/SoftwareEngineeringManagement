@@ -53,6 +53,6 @@ def predict(model, source, cfg=DEFAULT_CFG, use_python=False):
 
 
 if __name__ == '__main__':
-    model = r'F:\yolo\yolov8_Test_1\runs\detect\train20\weights\best.pt'
+    model = r'F:\yolo\yolov8_Test\runs\detect\train8\weights\best.pt'
     source = r"D:\softwaremanagement\predicttest\test.mp4"
     predict(model, source)
